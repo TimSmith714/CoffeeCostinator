@@ -8,6 +8,16 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="txtTitle" Margin="10,10,0,0" TextWrapping="Wrap" Text="The CoffeeCost-inator" VerticalAlignment="Top" Width="340" HorizontalAlignment="Left" FontFamily="Segoe UI Historic" FontSize="22" TextAlignment="Center"/>
+        <Button x:Name="btnItem1" Content="Latte - £1.50" HorizontalAlignment="Left" Height="37" Margin="10,65,0,0" VerticalAlignment="Top" Width="340" FontSize="18" Click="btnItem1_Click"/>
+        <Button x:Name="btnItem2" Content="Cappachinno - £1.80" HorizontalAlignment="Left" Height="37" Margin="10,125,0,0" VerticalAlignment="Top" Width="340" FontSize="18" Click="btnItem2_Click"/>
+        <Button x:Name="btnItem3" Content="Bacon Bap - £2.20" HorizontalAlignment="Left" Height="37" Margin="10,185,0,0" VerticalAlignment="Top" Width="340" FontSize="18" Click="btnItem3_Click"/>
+        <TextBlock x:Name="txtTotalTitle" HorizontalAlignment="Left" Height="41" Margin="10,260,0,0" TextWrapping="Wrap" Text="Balance Outstanding: £0.00" VerticalAlignment="Top" Width="340" TextAlignment="Center" FontSize="20"/>
+        <Button x:Name="btn5Credit" Content="£5 Credit" HorizontalAlignment="Left" Height="37" Margin="10,337,0,0" VerticalAlignment="Top" Width="140" Click="btn5Credit_Click"/>
+        <Button x:Name="btn10Credit" Content="£10 Credit" HorizontalAlignment="Left" Height="37" Margin="210,337,0,0" VerticalAlignment="Top" Width="140" Click="btn10Credit_Click"/>
+        <Button x:Name="btnReset1" Content="Reset Balance" HorizontalAlignment="Left" Height="31" Margin="31,391,0,0" VerticalAlignment="Top" Width="104" FontSize="14" Click="btnReset1_Click"/>
+        <Button x:Name="btnResetConfirm" Content="Yes" HorizontalAlignment="Left" Height="31" Margin="210,391,0,0" VerticalAlignment="Top" Width="42" FontSize="14" Click="btnResetConfirm_Click" Opacity="0" IsEnabled="False"/>
+        <Button x:Name="btnResetCancel" Content="No" HorizontalAlignment="Left" Height="31" Margin="296,391,0,0" VerticalAlignment="Top" Width="42" FontSize="14" Click="btnResetCancel_Click" Opacity="0" IsEnabled="False"/>
 
     </Grid>
 </Page>

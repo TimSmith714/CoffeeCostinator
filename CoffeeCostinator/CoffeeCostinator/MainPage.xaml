@@ -14,8 +14,8 @@
 
         <TextBlock x:Name="txtTitle" Margin="10,10,0,0" TextWrapping="Wrap" Text="The CoffeeCost-inator" VerticalAlignment="Top" Width="340" HorizontalAlignment="Left" FontFamily="Segoe UI Historic" FontSize="22" TextAlignment="Center" FontWeight="Bold" Foreground="White"/>
         <Button x:Name="btnItem1" Content="Latte - £1.60" HorizontalAlignment="Left" Height="37" Margin="10,65,0,0" VerticalAlignment="Top" Width="340" FontSize="18" Click="btnItem1_Click" Background="#CCFFFFFF"/>
-        <Button x:Name="btnItem2" Content="Cappachinno - £1.80" HorizontalAlignment="Left" Height="37" Margin="10,125,0,0" VerticalAlignment="Top" Width="340" FontSize="18" Click="btnItem2_Click" Background="#CCFFFFFF"/>
-        <Button x:Name="btnItem3" Content="Bacon Bap - £2.20" HorizontalAlignment="Left" Height="37" Margin="10,185,0,0" VerticalAlignment="Top" Width="340" FontSize="18" Click="btnItem3_Click" Background="#CCFFFFFF"/>
+        <Button x:Name="btnItem2" Content="Cappuccino - £1.80" HorizontalAlignment="Left" Height="37" Margin="10,125,0,0" VerticalAlignment="Top" Width="340" FontSize="18" Click="btnItem2_Click" Background="#CCFFFFFF"/>
+        <Button x:Name="btnItem3" Content="Bacon Bap - £2.30" HorizontalAlignment="Left" Height="37" Margin="10,185,0,0" VerticalAlignment="Top" Width="340" FontSize="18" Click="btnItem3_Click" Background="#CCFFFFFF"/>
         <TextBlock x:Name="txtTotalTitle" HorizontalAlignment="Left" Height="41" Margin="10,260,0,0" TextWrapping="Wrap" Text="Balance Outstanding: £0.00" VerticalAlignment="Top" Width="340" TextAlignment="Center" FontSize="20" FontWeight="Bold"  Foreground="White"/>
         <Button x:Name="btn5Credit" Content="£5 Credit" HorizontalAlignment="Left" Height="37" Margin="10,337,0,0" VerticalAlignment="Top" Width="140" Click="btn5Credit_Click" Background="#CCFFFFFF"/>
         <Button x:Name="btn10Credit" Content="£10 Credit" HorizontalAlignment="Left" Height="37" Margin="210,337,0,0" VerticalAlignment="Top" Width="140" Click="btn10Credit_Click" Background="#CCFFFFFF"/>

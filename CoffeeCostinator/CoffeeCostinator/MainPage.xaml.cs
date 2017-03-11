@@ -54,7 +54,7 @@ namespace CoffeeCostinator
 
         private void btnItem1_Click(object sender, RoutedEventArgs e)
         {
-            updateTotal(1.5);
+            updateTotal(1.6);
         }
 
         private void btnItem2_Click(object sender, RoutedEventArgs e)

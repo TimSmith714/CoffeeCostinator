@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{491d9f28-0b99-4761-bcca-4e2984cddfbc}</ProjectGuid>
+    <ProjectGuid>{491D9F28-0B99-4761-BCCA-4E2984CDDFBC}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CoffeeCostinator</RootNamespace>
@@ -16,9 +16,7 @@
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    
     <PackageCertificateKeyFile>CoffeeCostinator_TemporaryKey.pfx</PackageCertificateKeyFile>
-    
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
@@ -106,11 +104,114 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    
     <None Include="CoffeeCostinator_TemporaryKey.pfx" />
-    
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\icons\barista-icons_aeropress%402x.png" />
+    <Content Include="Assets\icons\barista-icons_aeropress.png" />
+    <Content Include="Assets\icons\barista-icons_americano%402x.png" />
+    <Content Include="Assets\icons\barista-icons_americano-alternative%402x.png" />
+    <Content Include="Assets\icons\barista-icons_americano-alternative.png" />
+    <Content Include="Assets\icons\barista-icons_americano.png" />
+    <Content Include="Assets\icons\barista-icons_cafe-latte%402x.png" />
+    <Content Include="Assets\icons\barista-icons_cafe-latte.png" />
+    <Content Include="Assets\icons\barista-icons_cappuccino%402x.png" />
+    <Content Include="Assets\icons\barista-icons_cappuccino-alternative%402x.png" />
+    <Content Include="Assets\icons\barista-icons_cappuccino-alternative.png" />
+    <Content Include="Assets\icons\barista-icons_cappuccino.png" />
+    <Content Include="Assets\icons\barista-icons_carafe-with-filter-coffee%402x.png" />
+    <Content Include="Assets\icons\barista-icons_carafe-with-filter-coffee.png" />
+    <Content Include="Assets\icons\barista-icons_chemex%402x.png" />
+    <Content Include="Assets\icons\barista-icons_chemex.png" />
+    <Content Include="Assets\icons\barista-icons_coffea-arabica%402x.png" />
+    <Content Include="Assets\icons\barista-icons_coffea-arabica.png" />
+    <Content Include="Assets\icons\barista-icons_coffee-bean%402x.png" />
+    <Content Include="Assets\icons\barista-icons_coffee-bean-alternative%402x.png" />
+    <Content Include="Assets\icons\barista-icons_coffee-bean-alternative.png" />
+    <Content Include="Assets\icons\barista-icons_coffee-bean.png" />
+    <Content Include="Assets\icons\barista-icons_coffee-filter%402x.png" />
+    <Content Include="Assets\icons\barista-icons_coffee-filter.png" />
+    <Content Include="Assets\icons\barista-icons_coffee-grinder%402x.png" />
+    <Content Include="Assets\icons\barista-icons_coffee-grinder-alternative%402x.png" />
+    <Content Include="Assets\icons\barista-icons_coffee-grinder-alternative.png" />
+    <Content Include="Assets\icons\barista-icons_coffee-grinder-machine%402x.png" />
+    <Content Include="Assets\icons\barista-icons_coffee-grinder-machine.png" />
+    <Content Include="Assets\icons\barista-icons_coffee-grinder.png" />
+    <Content Include="Assets\icons\barista-icons_coffee-pad%402x.png" />
+    <Content Include="Assets\icons\barista-icons_coffee-pad.png" />
+    <Content Include="Assets\icons\barista-icons_coffee-pads-pile%402x.png" />
+    <Content Include="Assets\icons\barista-icons_coffee-pads-pile.png" />
+    <Content Include="Assets\icons\barista-icons_coffee-shop-sign%402x.png" />
+    <Content Include="Assets\icons\barista-icons_coffee-shop-sign.png" />
+    <Content Include="Assets\icons\barista-icons_coffee-to-go%402x.png" />
+    <Content Include="Assets\icons\barista-icons_coffee-to-go.png" />
+    <Content Include="Assets\icons\barista-icons_coffeepot%402x.png" />
+    <Content Include="Assets\icons\barista-icons_coffeepot.png" />
+    <Content Include="Assets\icons\barista-icons_cortado%402x.png" />
+    <Content Include="Assets\icons\barista-icons_cortado.png" />
+    <Content Include="Assets\icons\barista-icons_cup-of-coffee%402x.png" />
+    <Content Include="Assets\icons\barista-icons_cup-of-coffee.png" />
+    <Content Include="Assets\icons\barista-icons_espresso%402x.png" />
+    <Content Include="Assets\icons\barista-icons_espresso-alternative%402x.png" />
+    <Content Include="Assets\icons\barista-icons_espresso-alternative.png" />
+    <Content Include="Assets\icons\barista-icons_espresso-doppio%402x.png" />
+    <Content Include="Assets\icons\barista-icons_espresso-doppio.png" />
+    <Content Include="Assets\icons\barista-icons_espresso-macchiato%402x.png" />
+    <Content Include="Assets\icons\barista-icons_espresso-macchiato-alternative%402x.png" />
+    <Content Include="Assets\icons\barista-icons_espresso-macchiato-alternative.png" />
+    <Content Include="Assets\icons\barista-icons_espresso-macchiato.png" />
+    <Content Include="Assets\icons\barista-icons_espresso-machine%402x.png" />
+    <Content Include="Assets\icons\barista-icons_espresso-machine-alternative%402x.png" />
+    <Content Include="Assets\icons\barista-icons_espresso-machine-alternative.png" />
+    <Content Include="Assets\icons\barista-icons_espresso-machine.png" />
+    <Content Include="Assets\icons\barista-icons_espresso-maker%402x.png" />
+    <Content Include="Assets\icons\barista-icons_espresso-maker.png" />
+    <Content Include="Assets\icons\barista-icons_espresso-milk-foam%402x.png" />
+    <Content Include="Assets\icons\barista-icons_espresso-milk-foam.png" />
+    <Content Include="Assets\icons\barista-icons_espresso.png" />
+    <Content Include="Assets\icons\barista-icons_filter-coffee-maker%402x.png" />
+    <Content Include="Assets\icons\barista-icons_filter-coffee-maker.png" />
+    <Content Include="Assets\icons\barista-icons_filtercone%402x.png" />
+    <Content Include="Assets\icons\barista-icons_filtercone.png" />
+    <Content Include="Assets\icons\barista-icons_flat-white%402x.png" />
+    <Content Include="Assets\icons\barista-icons_flat-white-alternative%402x.png" />
+    <Content Include="Assets\icons\barista-icons_flat-white-alternative.png" />
+    <Content Include="Assets\icons\barista-icons_flat-white.png" />
+    <Content Include="Assets\icons\barista-icons_frappuccino-milk-shake%402x.png" />
+    <Content Include="Assets\icons\barista-icons_frappuccino-milk-shake.png" />
+    <Content Include="Assets\icons\barista-icons_french-press%402x.png" />
+    <Content Include="Assets\icons\barista-icons_french-press.png" />
+    <Content Include="Assets\icons\barista-icons_jar-of-ground-coffee%402x.png" />
+    <Content Include="Assets\icons\barista-icons_jar-of-ground-coffee.png" />
+    <Content Include="Assets\icons\barista-icons_latte-macchiato%402x.png" />
+    <Content Include="Assets\icons\barista-icons_latte-macchiato.png" />
+    <Content Include="Assets\icons\barista-icons_milk-bottle-glass%402x.png" />
+    <Content Include="Assets\icons\barista-icons_milk-bottle-glass.png" />
+    <Content Include="Assets\icons\barista-icons_milk-bottle-plastic%402x.png" />
+    <Content Include="Assets\icons\barista-icons_milk-bottle-plastic.png" />
+    <Content Include="Assets\icons\barista-icons_milk-jug%402x.png" />
+    <Content Include="Assets\icons\barista-icons_milk-jug.png" />
+    <Content Include="Assets\icons\barista-icons_milk-package%402x.png" />
+    <Content Include="Assets\icons\barista-icons_milk-package.png" />
+    <Content Include="Assets\icons\barista-icons_moccacino%402x.png" />
+    <Content Include="Assets\icons\barista-icons_moccacino.png" />
+    <Content Include="Assets\icons\barista-icons_modern-coffee-grinder%402x.png" />
+    <Content Include="Assets\icons\barista-icons_modern-coffee-grinder.png" />
+    <Content Include="Assets\icons\barista-icons_portafilter%402x.png" />
+    <Content Include="Assets\icons\barista-icons_portafilter-with-tamper%402x.png" />
+    <Content Include="Assets\icons\barista-icons_portafilter-with-tamper.png" />
+    <Content Include="Assets\icons\barista-icons_portafilter.png" />
+    <Content Include="Assets\icons\barista-icons_syphon-coffee-maker%402x.png" />
+    <Content Include="Assets\icons\barista-icons_syphon-coffee-maker-alternative%402x.png" />
+    <Content Include="Assets\icons\barista-icons_syphon-coffee-maker-alternative.png" />
+    <Content Include="Assets\icons\barista-icons_syphon-coffee-maker.png" />
+    <Content Include="Assets\icons\barista-icons_tamper%402x.png" />
+    <Content Include="Assets\icons\barista-icons_tamper.png" />
+    <Content Include="Assets\icons\barista-title-image.jpg" />
+    <Content Include="Assets\icons\readme.txt" />
+    <Content Include="coffee-1324126.jpg" />
+    <Content Include="coffee-1324126_1920.jpg" />
+    <Content Include="coffee-beans.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -130,11 +231,10 @@
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
-  
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
-
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
